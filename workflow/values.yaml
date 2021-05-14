@@ -169,6 +169,7 @@ fluentd:
     port: ""
 
 monitor:
+  enabled: true
   grafana:
     user: "admin"
     password: "admin"

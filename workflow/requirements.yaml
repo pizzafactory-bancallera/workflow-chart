@@ -32,6 +32,7 @@ dependencies:
   - name: monitor
     version: "v2.11.2"
     repository: https://charts.teamhephy.com
+    condition: monitor.enabled
   - name: nsqd
     version: "v2.4.1"
     repository: https://charts.teamhephy.com
