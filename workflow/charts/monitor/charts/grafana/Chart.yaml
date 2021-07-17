@@ -3,4 +3,4 @@ home: https://github.com/teamhephy/monitor/tree/master/grafana
 maintainers:
 - email: team@teamhephy.com
 name: grafana
-version: <Will be populated by the ci before publishing the chart>
+version: v2.11.2

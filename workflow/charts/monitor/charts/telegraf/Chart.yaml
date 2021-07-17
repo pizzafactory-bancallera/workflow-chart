@@ -3,4 +3,4 @@ home: https://github.com/teamhephy/monitor/tree/master/telegraf
 maintainers:
 - email: team@teamhephy.com
 name: telegraf
-version: <Will be populated by the ci before publishing the chart>
+version: v2.11.2

@@ -50,5 +50,5 @@ dependencies:
 - name: workflow-manager
   repository: https://charts.teamhephy.com
   version: v2.6.2
-digest: sha256:eefbd6c9b9de28aecb360c1f1716c77b402b5a518f1ab3e31406aa382d7e5ca4
-generated: "2020-10-12T13:41:36.048743151-04:00"
+digest: sha256:6c4160459feb96dfb1e42bfc13c488769620f8c4ba082f13cb324618cfba2b40
+generated: "2021-05-14T13:45:02.940748445+09:00"
