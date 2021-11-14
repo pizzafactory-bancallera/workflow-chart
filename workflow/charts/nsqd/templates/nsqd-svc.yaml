@@ -7,10 +7,10 @@ metadata:
     app: deis-nsqd
 spec:
   ports:
-  - port: 4151
+  - port: {{ .Values.http_port }}
     name: http
     targetPort: http
-  - port: 4150
+  - port: {{ .Values.tcp_port }}
     name: transport
     targetPort: transport
   selector:

@@ -3,7 +3,6 @@ pull_policy: "IfNotPresent"
 docker_tag: v1.5.1
 limits_cpu: "100m"
 limits_memory: "50Mi"
-#priorityClassName: "addon-priotiry"
 
 global:
   # Set the location of Workflow's Registry

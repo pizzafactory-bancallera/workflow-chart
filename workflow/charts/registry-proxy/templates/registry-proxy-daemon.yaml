@@ -23,9 +23,6 @@ spec:
         heritage: deis
         app: deis-registry-proxy
     spec:
-{{- if .Values.priorityClassName }}
-      priorityClassName: {{ .Values.priorityClassName }}
-{{- end}}
 {{- if (.Values.global.use_cni) }}
       hostNetwork: true
 {{- end}}
