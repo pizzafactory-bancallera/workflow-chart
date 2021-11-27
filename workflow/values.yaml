@@ -75,6 +75,15 @@ global:
   # - false: no RBAC-related manifests will be installed
   use_rbac: true
 
+#  affinity:
+#    nodeAffinity:
+#      requiredDuringSchedulingIgnoredDuringExecution:
+#        nodeSelectorTerms:
+#          - matchExpressions:
+#              - key: kubernetes.azure.com/mode
+#                operator: In
+#                values:
+#                  - user
 
 s3:
   # Your AWS access key. Leave it empty if you want to use IAM credentials.

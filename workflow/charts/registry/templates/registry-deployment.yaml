@@ -22,6 +22,10 @@ spec:
       labels:
         app: deis-registry
     spec:
+{{- with .Values.global.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+{{- end }}
       serviceAccount: deis-registry
       containers:
         - name: deis-registry

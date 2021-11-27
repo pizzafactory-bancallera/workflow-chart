@@ -21,6 +21,10 @@ spec:
       labels:
         app: deis-logger
     spec:
+{{- with .Values.global.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+{{- end }}
       containers:
       - name: deis-logger
         image: {{.Values.org}}/logger:{{.Values.docker_tag}}

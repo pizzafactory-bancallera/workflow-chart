@@ -22,6 +22,10 @@ spec:
         app: deis-builder
     spec:
       serviceAccount: deis-builder
+{{- with .Values.global.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+{{- end }}
       containers:
         - name: deis-builder
           image: {{.Values.org}}/builder:{{.Values.docker_tag}}
