@@ -1,53 +1,53 @@
 dependencies:
   - name: builder
     version: "v2.13.7"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
   - name: slugbuilder
     version: "v2.8.0"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
   - name: dockerbuilder
     version: "v2.8.3"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
   - name: controller
     version: "v2.22.0"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
   - name: slugrunner
     version: "v2.7.0"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
   - name: database
     version: "v2.7.6"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
   - name: fluentd
     version: "v2.15.1"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
   - name: redis
     version: "v2.4.2"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
   - name: logger
     version: "v2.5.1"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
   - name: minio
     version: "v2.4.5"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
   - name: monitor
     version: "v2.11.2"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
     condition: monitor.enabled
   - name: nsqd
     version: "v2.5.1"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
   - name: registry
     version: "v2.6.1"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
   - name: registry-proxy
     version: "v1.5.1"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
   - name: registry-token-refresher
     version: "v1.2.2"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
   - name: router
     version: "v2.19.0"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
   - name: workflow-manager
     version: "v2.6.2"
-    repository: https://charts.teamhephy.com
+    repository: https://pizzafactory-bancallera.github.io/workflow-chart
