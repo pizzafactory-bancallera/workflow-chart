@@ -24,6 +24,10 @@ spec:
         app: deis-logger-fluentd
     spec:
       serviceAccount: deis-logger-fluentd
+{{- with .Values.global.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+{{- end }}
       containers:
       - name: deis-logger-fluentd
         image: {{.Values.org}}/fluentd:{{.Values.docker_tag}}

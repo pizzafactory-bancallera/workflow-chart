@@ -21,6 +21,10 @@ spec:
         app: deis-monitor-telegraf
     spec:
       serviceAccount: deis-monitor-telegraf
+{{- with .Values.global.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+{{- end }}
       containers:
         - name: deis-monitor-telegraf
           image: {{.Values.org}}/telegraf:{{.Values.docker_tag}}

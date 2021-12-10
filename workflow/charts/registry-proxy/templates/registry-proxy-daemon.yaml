@@ -26,6 +26,10 @@ spec:
 {{- if (.Values.global.use_cni) }}
       hostNetwork: true
 {{- end}}
+{{- with .Values.global.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+{{- end }}
       containers:
       - name: deis-registry-proxy
         image: {{.Values.org}}/registry-proxy:{{.Values.docker_tag}}
